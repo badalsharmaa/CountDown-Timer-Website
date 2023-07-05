@@ -1,0 +1,72 @@
+body {
+    font-family: 'Sarpanch', sans-serif;
+    color: hsl(0, 0%, 7%);
+    background: #f2f1ed;
+    background: radial-gradient(hsl(204, 86%, 93%), hsl(204, 86%, 63%));
+  }
+  .outer-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  /* ==================
+   *  APP
+   * ================== */
+   .inner-container{
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    /* border:1px solid rgba(255, 255, 255, 0.18); */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: hsl(204, 27%, 23%);
+   }
+  .countdown {
+    margin: 5px 0 30px; 
+  }
+  h1 {
+    text-align: center;
+    font-size: 18px;
+    color: hsl(204, 27%, 23%);
+  }
+  h2 {
+    font-size: 120px;
+    /* width: 390px; */
+    line-height: 1;
+    text-align: center;
+  }
+  h3 {
+    font-size: 28px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+  .btn .btn-style{
+    background-color: hsl(204, 27%, 23%); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10%;
+    transition: .5s ease;
+  }
+  .btn .btn-style:hover{
+    background-color: hsl(204, 86%, 63%);
+    color: #f2f1ed;
+  }
+  .btn{
+    margin: 5px  0 30px;
+    text-align: center;
+  }
+  .input{
+    text-align: center;
+    margin: 5px  0 30px;
+    background-color: hsla(203, 26%, 23%, 0.224); 
+  }

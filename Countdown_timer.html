@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown Timer</title>
+    <link href="https://fonts.googleapis.com/css?family=Sarpanch" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="outer-container">
+            <div class="inner-container">
+                <h1>Countdown Timer</h1>
+                <div class="countdown">
+                    <h2 id="Timer">ㅤ</h2>
+                </div>
+                <div class="countdown">
+                    <h3>Enter the Starting time in seconds</h3>
+                </div>
+
+                <input class="input type" number" id="timer-input">
+
+                <div class="btn">
+                    <button class="btn-style" onclick="StartTimer()">Start</button>
+                    <button class="btn-style" onclick="stopGame()">Stop</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
